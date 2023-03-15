@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>FORMS</h1>
+    <form action="result.html">
+      <!--! TEXT -->
+      <div>
+        <!--! label ve inputu id for ile bağlayınca label ı tıkla input aktif olsun -->
+        <label for="ad">AD:</label>
+        <input
+          id="ad"
+          type="text"
+          name="isim"
+          value=""
+          placeholder="Lütfen isim giriniz."
+          required
+        />
+        <!-- * required:doldurulması zorunlu. 
+                ? placeholder silinik isim yazdirir -->
+
+        <br />
+        <br />
+        <label for="soyad">SOYAD:</label>
+        <input
+          id="soyad"
+          type="text"
+          name="soyisim"
+          value=""
+          placeholder="Lütfen soyisim giriniz."
+          required
+        />
+      </div>
+      <!-- ! PASSWORD -->
+      <div>
+        <br />
+        <label for="pass">PASSWORD:</label>
+        <input
+          id="pass"
+          type="password"
+          name="password"
+          value=""
+          placeholder="Lütfen sifrenizi giriniz."
+          minlength="4"
+          maxlength="8"
+          required
+        />
+      </div>
+      <br />
+      <!-- ! RADIO BUTTON -->
+
+      <div>
+        <label for="man">Erkek</label>
+        <input id="man" type="radio" name="cinsiyet" value="erkek" />
+        <label for="woman">Kadin</label>
+        <input id="woman" type="radio" name="cinsiyet" value="kadin" />
+        <label for="none">None</label>
+        <input id="none" type="radio" name="cinsiyet" value="none" checked />
+        <!-- * checked ekran yüklendigi zaman default olarak bir cinsiyet secili oluyor. -->
+      </div>
+      <!-- ! CHECKBOX -->
+      <div>
+        <label> LÜTFEN FAVORI ARABANIZI SECINIZ</label> <br />
+        <label for="bmw">BMW</label>
+        <input id="bmw" type="checkbox" name="araba1" value="bmw-x5" />
+        <label for="mer">Mercedes</label>
+        <input id="mer" type="checkbox" name="araba2" value="mercedes-amg" />
+        <label for="audi">AUDI</label>
+        <input id="audi" type="checkbox" name="araba3" value="audi-a7" />
+        <!-- * checkbox ile istediginiz kadar kutucuk secebilirsiniz.. -->
+      </div>
+
+      <div>
+        <input type="submit" value="YOLLA">
+        <!-- <input type="text">
+        <input type="text"> -->
+      </div>
+    </form>
+  </body>
+</html>
