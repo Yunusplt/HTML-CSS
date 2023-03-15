@@ -1,0 +1,47 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: blue;
+}
+#par{
+    color: aqua;
+}
+
+.center p span{
+    background-color: red;
+}
+
+
+/* ! ####################################### */
+
+.center p{
+    color: coral;
+}
+/* bu kullanim center class i icerisindeki tüm p leri etkiler. cocuk torun alayiii. */
+
+.center > p{
+
+    background-color: yellow;
+}
+/*  >p yapinca sadece bir alt parantesleri alir. cocugu alir torunlari almaz. */
+
+.center{
+    background-color: red;
+}
+
+/* bu islemde tüm center classi kirmizi oldu. ama ustekiler daha spesifik oldugu icin onlar kaldi degismedi. */
+
+
+.secici ~a {
+    background-color: orange;
+}
+
+/* ustteki kullanim secici adli class tan sonraki tüm a lari etkiler. */
+
+.secici +a{
+    background-color: yellow;
+}
+/* ustteki kullanim secici adli classtan sonraki ilk a yi alir. + ~ bu arasinda esit duzeyde etki oldugu icin siralama önemlidir. */
+
