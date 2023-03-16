@@ -1,0 +1,25 @@
+/*  istersek csss de de tesekkur edebiliriz. */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Silkscreen:regular,700);
+
+.birinci{
+    font-family: 'Rubik Distressed', cursive;
+    background-color: lightgrey;
+    
+}
+
+.menu{
+    font-size: 50px;
+    text-align: center;
+    width: 250px;
+}
+
+.aktif{
+    background-color: aqua;
+    font-family: silkscreen;
+}
+
+div{
+    background-color: pink;
+}
