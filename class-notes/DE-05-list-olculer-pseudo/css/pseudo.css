@@ -1,0 +1,94 @@
+table{
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+}
+
+
+tr:nth-child(odd){
+    background-color: pink;
+    color: yellow;
+}
+
+tr:nth-child(3){
+    background-color: aqua;
+}
+/* 3 altta oldugu icin eziyor. */
+
+td:first-child{
+    color: red;
+    font-weight: 900;
+    /* numaralari sismanlatti */
+}
+
+td:last-child{
+    font-style: italic;
+    font-size: 50px
+}
+
+tr::before, tr::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    /* content: "🙂"; */
+    content: "\1F606";
+    color: red;
+    font-size: 40px;
+    
+
+    
+    /* content kısmına emoji yapıştırabiliriz ama bazı emojiler stil kabul etmiyor, bu yüzden  https://symbl.cc/en/collections/top-emoji/ adresinden emojinin css kod unu alıp gelmek daha sağlıklı */
+   
+}
+
+tr:nth-child(3)::after,tr:nth-child(3)::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "🎗️";
+    /* content: "\1F339"; */
+    color: yellow;
+    font-size: 40px;
+    
+}
+
+td:hover{
+    background-color: lightgreen;
+    color: purple;
+
+}
+
+tr:hover{
+    background-color: gray;
+    color: blue;
+}
+
+button{
+    cursor: pointer;
+}
+
+.fa-solid{
+    font-size: 40px;
+    
+}
+
+.icon{
+    color: orange;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:active{
+    color: cyan;
+    /* uzerine gelip bastigimiz an verdigi reaksiyon */
+}
+
+a:hover{
+    font-size: 50px;
+    background-color: salmon;
+}
+

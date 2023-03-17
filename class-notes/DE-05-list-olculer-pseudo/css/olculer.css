@@ -1,0 +1,60 @@
+
+
+*{
+    margin:0;
+    /* font-size: 30px; */
+}
+
+.dede{
+    background-color: orange;
+    width: 50%;
+}
+
+.baba{
+    background-color: red;
+    width: 50%;
+}
+
+.torun{
+    background-color: rgb(0, 255, 255);
+    width: 50vw;
+    /* vw = viewport tüm sayfanin ölcüsüne göre hareket ediyor, margini dikkate almiyor. */
+    /*! viewport ölçüleri tüm ekranı baz alır, mesela 50vw dersek tüm 1400px lik pc ekranımı baz alır ve 700 px olur. 50% ise body nin 16px lik default margin lerinden arta kalan kısmın yüzde 50 sini alır bu yüzden % ler parent ı önemser, her zaman parent tan gelen ölçünün yüzdesini alır ama viewportlar her durumda ekranın yüzdesini alır */
+}
+
+
+
+/* EM OLcu birimleri */
+.tek{
+    font-size: 0.5em;
+    /* 16/2=8px */
+}
+
+.anane{
+    color: red;
+    font-size: 3em;
+    /* 3*16px=48px */
+}
+
+.anne{
+    color: yellow;
+    font-size: 0.5em;
+    /* anane yi ikiye böldü yani 48px/2 = 24px */
+}
+
+.cocuk{
+    font-size: 3em;
+    /* 3*24px = 72px */
+}
+
+.div1{
+    font-size: 2rem;
+
+}
+
+.div2{
+    font-size: 2rem;
+    /* em parenti baz alirken, rem body i baz alir. yani 1 rem esittir bodydeki pxele */
+
+}
+
