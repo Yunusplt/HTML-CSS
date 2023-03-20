@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.btn{
+    background-color: beige;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+
+    margin: 1rem 2rem 3rem 4rem;
+    /* 1. kullanimin kisa versiyonu */
+
+    margin: 2rem;
+    /* her taraftan 2rem=32px  */
+    margin: 2rem 5rem;
+    /* 2rem ustten ve alttan, 5rem sagdan ve soldan*/
+
+    padding: 1rem;
+
+}
+
+.span-btn{
+    background-color: burlywood;
+    width: 50px;
+    height: 50px;
+    /* todo inline elementlere width height verilmez....img dosyalari istisna.... */
+
+    margin: 5rem 2rem 5rem 2rem;
+    /* todo marginlerde üst alt margin islemez. sag sol margin isler. */
+
+    padding: 2rem;
+    /* inline elementlere padding verdigimizde, dört taraftanda alir fakat komuslari itemedigi icin onlarin alanina müdahale eder. bu yüzden inlinelarda saglikli degildir. */
+}
+
+.new-btn{
+    background-color: red;
+    width: 20vw;
+    height: 20vw;
+    margin: 2rem auto;
+    /* sagdan soldan otomatik verdi. */
+}
