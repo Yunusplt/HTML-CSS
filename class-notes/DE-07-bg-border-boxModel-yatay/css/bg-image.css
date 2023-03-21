@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    color: salmon;
+    margin: 0;
+}
+
+.bg{
+    background-image: url(../img/monalisa.jpeg);
+    height: 30rem;
+    /* !tek resim olsun tekrarlamasin */
+    /* background-repeat: no-repeat; */
+    
+    /* background-position: center; */
+    /* background-size: 10px 80px; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+    /* background-size: 400px 300px; */
+    /* ! üstteki gibi verirsek resmin formu bozulabilir. */
+
+    background-repeat: no-repeat;
+    /* !repeat coverda degil ama containde gerekli  */
+    background-size: cover;
+    background-position:bottom;
+    background-position:top;
+    background-position:center;
+
+    /*! ilk parametre dikeyde (top-bottom-center), 2. parametre yatayda (right-left-center) hizalar. resim cover ile kırpıldıysa, resmin gözükmesini istediğimiz kısmını bu komutlarla belirleyebiliriz. resim contain ile verilen alanda küçük bi yer kapladıysa bu komutlarla hizalama yapabiliriz */
+
+    background-size: contain;
+    background-position: center right;
+    /* ! simdi ekranin sagina atti. coverda atmadi. cunku sagdan soldan sifirdi zaten. */
+    background-position: center center;
+
+}
+
+
+span{
+    background-color: gray;
+    width: 4rem;
+    height: 1rem;
+    /*! normalde width height tan sonra kutucuklarin gözükmesi lazim. ama span inline oldugu icin height alamiyor . oyüzden alttaki kod da yazildi  */
+    display: inline-block;
+    margin: 1rem;
+    
+}
+
+span:hover{
+    background-color: lightgray;
+}

@@ -2,7 +2,7 @@ table{
     width: 100%;
     height: 300px;
     font-size: 30px;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     /* tüm cizgileri kaldiriyor. */
 }
 
@@ -38,7 +38,7 @@ tr::before, tr::after{
     
 
     
-    /* content kısmına emoji yapıştırabiliriz ama bazı emojiler stil kabul etmiyor, bu yüzden  https://symbl.cc/en/collections/top-emoji/ adresinden emojinin css kod unu alıp gelmek daha sağlıklı */
+    /*! content kısmına emoji yapıştırabiliriz ama bazı emojiler stil kabul etmiyor, bu yüzden  https://symbl.cc/en/collections/top-emoji/ adresinden emojinin css kod unu alıp gelmek daha sağlıklı */
    
 }
 
