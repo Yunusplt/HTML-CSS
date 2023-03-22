@@ -1,0 +1,44 @@
+.box{
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid black;
+}
+
+/* ! Z-index kullanmak icin mutlaka position ozelliggi vermemiz lazim  */
+
+.box1{
+    background-color: coral;
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: 20px;
+
+    
+}
+
+.box2{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.box3{
+    background-color: rgb(100, 237, 152);
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.box4{
+    background-color: rgb(162, 237, 100);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+/* todo z-index default 0 dir. hangisi daha büyük deger alirsa o önde gözükür. */
+
+

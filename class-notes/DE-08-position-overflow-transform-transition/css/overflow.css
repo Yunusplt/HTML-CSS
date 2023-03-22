@@ -1,0 +1,26 @@
+.box{
+    border: 2px solid red;
+    width: 20rem;
+    height: 6rem;
+    margin-bottom: 5rem;
+}
+
+.box1{
+    overflow: visible;
+    /* default overflow property */
+}
+
+.box2{
+    overflow: hidden;
+}
+
+.box3{
+    overflow: scroll;
+    /*! tasma olsa da olmasa da kenarlarda scroll gözükür. o yüzden auto kullanmak best practice.. */
+}
+
+.box4{
+    overflow: auto;
+    /* !sadece tasma oldugu zaman ortaya cikar. */
+}
+
