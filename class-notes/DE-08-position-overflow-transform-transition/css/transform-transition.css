@@ -23,9 +23,17 @@
     background-color: violet;
 }
 
+.yazi5{
+    background-color: green;
+}
+/* !####################################scale######## */
 .yazi4:hover{
     transform: scale(2);
     transition: 150ms;
+}
+
+.yazi5:hover{
+    transform: scaleY(0.5);
 }
 
 
@@ -34,18 +42,27 @@
     width: 100px;
     font-weight: 800;
     height: 50px;
+    margin: 50px;
+    padding: 10px;
+    transition: transform 5s;
+    
 }
 
+
+/* ! ###########Transition############ */
 .x:hover{
     transform: translateX(50px);
 }
 
-.y:active{
-    transform: translate(150px,150px);
+.y:hover{
+    transform: translateY(50px);
 }
 
+.xy:active{
+    transform: translate(50px, -50px);
+}
 
-/* .btn-div{
+.btn-div{
     text-align: center;
 }
 
@@ -55,4 +72,15 @@
     padding:20px;
     font-size: 1.3rem;
     border-radius: 5px;
-} */
+    margin-bottom: 50px;
+}
+.btn:hover{
+
+ background-color: burlywood;
+ color: white;
+ font-size: 5rem;
+ transition: background-color 1s, color 5s, font-size 4s;
+ transition: background-color 1s, color 5s, font-size 4s ease-in 1s;
+ /* degisiklik hepsinde olsun istersem transition: all 4s ease-in 1s;*/
+
+}
