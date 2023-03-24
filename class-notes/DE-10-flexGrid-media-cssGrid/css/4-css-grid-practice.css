@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;   yukaridaki kullanim ile ayni ekrani 4 esit parcaya böler fraksiyon */
+    grid-template-rows: repeat(6, 15vh);
+    gap: 10px 15px;
+    background-color: red;
+}
+
+.parca{
+    background-color: yellowgreen;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parca1{
+    background-color:  pink;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.parca4{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.parca6{
+    background-color: purple;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    /* kisa yolu */
+    grid-area: 2 / 3 /span 2 /span 2;
+    /*! baslangic row / baslangic column/ span rowda kac kare/span Columnda kac kare */
+}
+
+.parca8{
+    background-color: yellow;
+    /* grid-row:5; */
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.parca9{
+    background-color: aqua;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    /* ortalardaki birlestirmelere sütund da lazim !!!! */
+
+    grid-column: 3;
+
+    grid-area: 4 / 3 /span 2;
+
+}

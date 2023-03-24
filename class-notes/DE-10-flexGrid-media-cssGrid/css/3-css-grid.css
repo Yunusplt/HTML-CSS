@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 300px 250px;
+    grid-template-rows: 150px 300px 100px;
+}
+
+.parca{
+    background-color: pink;
+    /* border: 1px solid red; */
+    /* daha iyi görebilmek icin burada border var. */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parca1{
+    background-image: url(../../assets/img/logo_colorful.png);
+    background-size: cover;
+}
+
+.parca4{
+    /* overflow: hidden */
+    overflow: auto;
+}
+
+.parca5{
+    background-size: cover;
+}
