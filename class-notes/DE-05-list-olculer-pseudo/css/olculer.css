@@ -2,7 +2,7 @@
 
 *{
     margin:0;
-    /* font-size: 30px; */
+    /* font-size: 32px; */
 }
 
 .dede{
@@ -31,18 +31,21 @@
 }
 
 .anane{
+    background-color: purple;
     color: red;
     font-size: 3em;
     /* 3*16px=48px */
 }
 
 .anne{
+    background-color: orange;
     color: yellow;
     font-size: 0.5em;
     /* anane yi ikiye böldü yani 48px/2 = 24px */
 }
 
 .cocuk{
+    background-color: pink;
     font-size: 3em;
     /* 3*24px = 72px */
 }

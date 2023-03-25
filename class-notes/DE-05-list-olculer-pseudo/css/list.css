@@ -5,9 +5,7 @@
 }
 
 li{
-    background-color: lightslategray;
-    
-}
+    background-color: lightslategray;}
 
 .aktif{
     background-color: orchid;
@@ -15,6 +13,7 @@ li{
 ul{
     list-style-position: inside;
     list-style-type:"🌵";
+    list-style-type: "🍯";
 }
 
 li{

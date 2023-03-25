@@ -64,7 +64,8 @@ tr:hover{
 }
 
 button{
-    cursor: pointer;
+    cursor:pointer ;
+    /* butonun uzerine gelince mause el oluyor. */
 }
 
 .fa-solid{

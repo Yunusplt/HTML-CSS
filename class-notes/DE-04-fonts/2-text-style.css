@@ -45,6 +45,7 @@ p {
 
     line-height: 20px;
     /* satir arasi bosluk */
+    text-align: justify;
 }
 /* ul{
     background-color: lavender;
@@ -72,3 +73,27 @@ h3{
     
 }
 
+li:nth-child(1){
+    text-decoration: underline;
+}
+
+li:nth-child(2) {
+    text-decoration: overline dashed;
+}
+
+li:nth-child(3) {
+    text-decoration: none;
+}
+
+li:nth-child(4) {
+    text-decoration: line-through dotted;
+}
+
+li:nth-child(5) {
+    text-decoration: underline wavy; 
+
+}
+
+li:nth-child(6) {
+    text-decoration: underline double;
+}
