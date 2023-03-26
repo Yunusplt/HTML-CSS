@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+
+header{
+    background-color: aqua;
+}
+
 .bg{
     background-image: url(../img/monalisa.jpeg);
     height: 30rem;

@@ -10,6 +10,7 @@ none- Sınır tanımlamaz
 hidden- Gizli bir sınır tanımlar */
 
 .container{
+    background-color: aquamarine;
     margin: 1rem;
 }
 
@@ -63,11 +64,14 @@ hidden- Gizli bir sınır tanımlar */
     width: 4rem;
     height: 4rem;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .seffaf{
     background-image: url(../img/monalisa.jpeg);
-    border: 7px solid rgba(255, 192, 203, 0.40);
+    border: 10px solid rgba(255, 192, 203, 0.40);
     /* 0.40 opacity yapinca borderin altinda kalan resim gözükmeye devam ediyor. */
     outline: 20px solid rgb(128, 0, 128, 0.40);
 }

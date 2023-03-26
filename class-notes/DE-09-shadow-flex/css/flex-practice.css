@@ -12,6 +12,12 @@ body{
 nav{
     margin-top: 0.5rem;
     display: flex;
+    /* display: inline-block; */
+}
+
+.ana{
+    /* display: inline-block; */
+    /* bununlada yan yana geliyor ama sayfayi kaplamiyor. */
 }
 
 nav .left, nav .middle, nav .right{
@@ -61,12 +67,12 @@ nav .right{
 }
 
 nav .right i{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 nav .right i:hover {
     /** bu şekilde büyütürsem mavi div ten taşar, komşularına yaklaşır. */
-    /* transform:scale(2, 2); */
+    transform:scale(2,2);
     /** icon la beraber mavi div de büyüsün, komşularıyla da arası açılsın istersem alttakini tercih ederim */
-    font-size: 60px;
+    /* font-size: 60px; */
 }

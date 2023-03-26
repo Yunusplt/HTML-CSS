@@ -18,7 +18,7 @@
     background-color: tomato;
     width: 5rem;
     height: 5rem;
-    border: 16px solid red;
+    border: 15px solid red;
     padding: 1rem;
     /* margin: 0.5rem; */
 }
@@ -117,3 +117,5 @@ li{
 .grow4{
     flex-grow: 0;
 }
+
+/* todo  4 tane div kutumuz var. her biri 100px uzunlugunda. marginleri cikarttigimizda sayfanin total uzunlugu 948. 948den 400ü cikarttigimizda kalan 548 i divler oranlari ölcüsünde paylasiyor. mesela 0 hic almiyor. 1 91.33 aliyor ve total uzunlugu 191,33 oluyor. 2 numara 91.33ün iki katini aliyor. ve totalde 282.66 oluyor. */
