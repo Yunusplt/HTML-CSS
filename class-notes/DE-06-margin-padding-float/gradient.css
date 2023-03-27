@@ -1,0 +1,79 @@
+p{
+    height: 10vh;
+}
+
+.header1{
+    background-image: linear-gradient(yellow,green);
+}
+
+.header2{
+    background-image: linear-gradient(lightpink, pink,salmon, red, darkred);
+}
+
+.header3{
+    background-image: linear-gradient(
+        to right,
+        lightpink,
+        pink,
+        salmon,
+        red,
+        darkred );
+}
+
+/* .header4{
+    background-color: azure,aqua,cyan,lightskyblue,magenta, lightskyblue, mediumslateblue,blueviolet,blue, darkblue;
+} */
+
+.header4{
+    background-image: linear-gradient(
+        45deg,
+        azure,
+        aqua,
+        cyan,
+        lightskyblue,
+        magenta,
+        mediumslateblue,
+        blueviolet,
+        blue,
+        darkblue);
+}
+
+.header5{
+    /* % verilerek oranlar degistirilebilir */
+    background-image: radial-gradient(
+        azure,
+        aqua,
+        cyan,  
+        lightskyblue ,
+        /* magenta, */
+        mediumslateblue,
+        blueviolet,
+        blue,
+        darkblue);
+}
+
+.header6 {
+    height: 100vh;
+    background-image: repeating-radial-gradient(
+            /* azure,
+            aqua,
+            cyan, */
+            lightskyblue 10%,
+            /* magenta,
+            mediumslateblue,
+            blueviolet, */
+            blue 15%,
+            darkblue 20%);
+}
+
+.header7{
+    background-image: linear-gradient( 
+        to right, 
+        pink 0%, 10%,
+        orange 15%, 30%,
+        red 30%, 45%,
+        blue 45%, 60%,
+        green 60%, 75%,
+        purple 75%, 90%,
+        brown 95%);
+}
