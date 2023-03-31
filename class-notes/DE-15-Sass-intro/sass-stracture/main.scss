@@ -6,3 +6,18 @@
 //!BASE
 @import "./base/reset";
 @import "./base/typography";
+
+//!Compotents
+@import "./components/buttons";
+
+//! Layout
+@import "./layout/grid";
+
+//! Pages
+@import "./pages/about";
+@import "./pages/contact";
+@import "./pages/home";
+
+//! Themes
+@import "./themes/dark";
+@import "./themes/light";
