@@ -21,6 +21,8 @@
     border: 15px solid red;
     padding: 1rem;
     /* margin: 0.5rem; */
+    text-align: center;
+    vertical-align: center;
 }
 
 .container2{
@@ -68,6 +70,7 @@
 
 
 ul{
+    /* list-style: none; */
     background-color: darkgray;
     height: 30rem;
     display: flex;
@@ -118,4 +121,4 @@ li{
     flex-grow: 0;
 }
 
-/* todo  4 tane div kutumuz var. her biri 100px uzunlugunda. marginleri cikarttigimizda sayfanin total uzunlugu 948. 948den 400ü cikarttigimizda kalan 548 i divler oranlari ölcüsünde paylasiyor. mesela 0 hic almiyor. 1 91.33 aliyor ve total uzunlugu 191,33 oluyor. 2 numara 91.33ün iki katini aliyor. ve totalde 282.66 oluyor. */
+/* todo  4 tane div kutumuz var. her biri 100px uzunlugunda. marginleri cikarttigimizda sayfanin total uzunlugu 948. 948den 400ü cikarttigimizda kalan 548 i divler oranlari ölcüsünde paylasiyor. mesela 0 hic almiyor. 1 91.33 aliyor ve total uzunlugu 191,33 oluyor. 2 numara 91.33ün iki katini aliyor. ve totalde 282.66 oluyor. sadece bir div e flex-grow: 1 verirsem digerleri cürmü kadar yer kaplar. inline gibi. ve flex-grow verdigim div kalan yerin tamamini kaplar. */

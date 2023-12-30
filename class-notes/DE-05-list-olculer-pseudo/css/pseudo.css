@@ -4,9 +4,16 @@ table{
     font-size: 30px;
     /* border-collapse: collapse; */
     /* tüm cizgileri kaldiriyor. */
+    
 }
-
-
+body{
+    background-color: gray;
+}
+div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 tr:nth-child(odd){
     background-color: pink;
     color: yellow;

@@ -38,7 +38,7 @@ a:active{
 
 .ul1{
     background-color: yellow;
-    display: none;
+    /* display: none; */
 }
 
 .acilir-menü:hover .ul1{

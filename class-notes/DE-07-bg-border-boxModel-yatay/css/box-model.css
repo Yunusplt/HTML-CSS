@@ -2,23 +2,26 @@
 
 .olcusuz-box{
     background-color: orange;
+    text-align: justify;
     border: 15px solid red;
     padding: 50px;
-    margin: 20px 85px;
+    margin: 20px auto;
     font-size: 2rem;
-    /*! belli bir width olmadigi icin alttaki kod gecersiz, anlamsiz */
     box-sizing: border-box;
+    width: 1400px;
 }
 
 .olcusuz-content{
         background-color: yellow;
-            border: 15px solid red;
-            padding: 50px;
-            margin: 20px 85px;
-            font-size: 2rem;
+        text-align: justify;
+        border: 15px solid red;
+        padding: 50px;
+        margin: 20px auto;
+        font-size: 2rem;
+        width: 1400px;
 }
 
-/* ! box-sizing komutu alttaki gibi width height verirsek işlevselleşir */
+/* ! box-sizing komutu yukaridaki ve asagidaki gibi width height verirsek işlevselleşir */
 .box{
     background-color: lightgreen;
     border: 15px solid red;

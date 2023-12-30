@@ -25,7 +25,7 @@
 /*! h1 elementi kapandiktan sonraki ilk p elementi secer ama üstteki gibi bir stil varsa alttaki gibi bir stili ezer. + ve ~ ezik sellector   */
 /** Adjacent Sibling */
 h1 +p{
-    /* color: purple; */
+    text-decoration: underline;
 }
 
 /* todo ############################################### */
